@@ -1,7 +1,7 @@
 document.addEventListener( "DOMContentLoaded", function() {
-    const API_ROOT = "https://en.wikipedia.org/w/api.php",
+    const API_ROOT = "https://pt.wikipedia.org/w/api.php",
           API_SUFFIX = "&formatversion=2&format=json&callback=?&continue=",
-          OPT_OUT_LIST = "User:Enterprisey/recently-active-opt-out.json",
+          OPT_OUT_LIST = "Usuário:Little_Sunshine/recently-active-opt-out.json",
           EDIT_COUNT_THRESHOLD = 10000;
 
     function applyUrlFilter() {
