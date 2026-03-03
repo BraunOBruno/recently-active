@@ -1,2 +1,3 @@
 # recent-activity
-A Wikipedia tool to find experienced editors and admins that are currently active.
+Uma ferramenta da Wikipédia para encontrar editores experientes e administradores que estão ativos neste momento.
+Fork da ferramenta homônima por Enterprisey, adaptada para a Wikipédia Lusófona.
