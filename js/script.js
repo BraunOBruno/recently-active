@@ -53,7 +53,7 @@ document.addEventListener( "DOMContentLoaded", function() {
 
             if( !optOutData.query || !optOutData.query.pages[0].revisions[0].slots.main.content ) {
                 console.error(optOutData);
-                document.getElementById( "error" ).innerHTML = "Error loading opt-out list at <a href='https://en.wikipedia.org/wiki/" + OPT_OUT_LIST + "'>" + OPT_OUT_LIST + "</a>!";
+                document.getElementById( "error" ).innerHTML = "Error loading opt-out list at <a href='https://pt.wikipedia.org/wiki/" + OPT_OUT_LIST + "'>" + OPT_OUT_LIST + "</a>!";
                 return;
             }
 
@@ -126,12 +126,12 @@ document.addEventListener( "DOMContentLoaded", function() {
     function makeUserCell ( username ) {
         var encUsername = encodeURIComponent( username ).replace( "'", "%27" ),
             escQuotUsername = username.replace( "'", "&#39" );
-        return "<td><a href='https://en.wikipedia.org/wiki/User:" + encUsername +
+        return "<td><a href='https://pt.wikipedia.org/wiki/User:" + encUsername +
             "' title='Wikipedia user page of " + escQuotUsername + "'>" +
-            username + "</a> (<a href='https://en.wikipedia.org/wiki/User talk:" +
+            username + "</a> (<a href='https://pt.wikipedia.org/wiki/User talk:" +
             encUsername + "' title='Wikipedia user talk page of " +
             escQuotUsername + "'>talk</a> &middot; <a " +
-            "href='https://en.wikipedia.org/wiki/Special:Contributions/" +
+            "href='https://pt.wikipedia.org/wiki/Special:Contributions/" +
             encUsername + "' title='Wikipedia contributions of " +
             escQuotUsername + "'>contribs</a>)</td>";
     }
